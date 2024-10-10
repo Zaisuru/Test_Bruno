@@ -1,7 +1,5 @@
 .heroContainer{
     padding: 24px 124px;
-    height: 789px;
-    width: 1440px;
 }
 .homeContainer{
     display: grid;
@@ -13,15 +11,15 @@
 }
 .presentationVideo{
     grid-column: 1 / span 6;
-    width: 784px;
-    height: 440px;
     border-radius: 8px;
+    width: 100%;
+    height: 100%;
 }
 .visualBrochure{
     grid-column: 7 / span 6;
     background-color: #3C4A411A;
-    height: 440.82px;
-    width: 720.75px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,9 +27,6 @@
     position: relative;
 }
 .visualBrochure svg{
-    width:518.04px;
-    height: 289.61px;
-    padding: 15px;
     border-radius: 5px;
     border: 0.86px solid #E0E0E0;
     background-color: #F9F9F9;

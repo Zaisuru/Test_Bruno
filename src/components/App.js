@@ -12,6 +12,7 @@ function App() {
      <div className="grid-container">
        <Header />
        <Hero />
+         <Reassurance />
      </div>
   )
 }
