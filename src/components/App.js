@@ -13,6 +13,7 @@ function App() {
        <Header />
        <Hero />
          <Reassurance />
+         <Consultants />
      </div>
   )
 }
@@ -22,5 +23,4 @@ export default App
 
 /*
        <Reassurance />
-       <Consultants />
        <Solutions />*/

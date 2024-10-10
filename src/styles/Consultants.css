@@ -1,3 +1,6 @@
+/* import Inter fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .consultants{
     padding: 120px 100px 0 100px;
     display: grid;
@@ -5,6 +8,7 @@
     gap: 20px;
     align-items: center;
     background-color: #3C4A41;
+    overflow: hidden;
 }
 
 .consultantsTitle{
@@ -23,8 +27,8 @@
     border-radius: 80px;
     width: 57.6px;
     height: 40px;
-    border: 0.8px solid #946BB6;
-    background-color: #3C4A41;
+    border: 0.8px solid #F4F8EF;
+    background: none;
 }
 
 .navBtn svg{
@@ -36,8 +40,44 @@
     grid-column: 1 / span 12;
     overflow: visible;
 }
-
+.carousel{
+    display: flex;
+    width: 792px;
+    height: 505px;
+}
 .carouselContainer{
     grid-column: 1 / span 5;
+    display: flex;
+    height: 100%;
+    margin: 0 35px;
+}
+
+.carouselContent{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin: 0 35px;
+}
+.carouselContentTitle{
+    display: flex;
+    align-items: center;
+}
+.carouselTitle{
+    font-size: 32px;
+    font-family: "ppneuemontreal", sans-serif;
+    margin-left: 25px;
+}
+.carouselContentText{
+    width: 352px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: rgba(214, 224, 211, 0.7);
+
 
 }
