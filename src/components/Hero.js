@@ -1,14 +1,15 @@
-import '../styles/Hero.css'
+import '../styles/Hero.css';
+import heroVideo from '../assets/heroVideo.mp4';
+import Status from "./Status";
+import Owner from "./Owner";
 
 function Hero () {
     return (
         <div className="heroContainer">
             <div className="contentVisualBrochure">
                 <div className="homeContainer">
-                    <video className='presentationVideo'>
-                        <source
-                            src="https://s3-figma-videos-production-sig.figma.com/video/532980382294380138/TEAM/41b9/35e0/-0fd9-419d-95ad-71be32fad85c?Expires=1729468800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=GbmcQanQ-JGS4pS2seYpjeMPp5H4cSkbwifYXV-TZgEs8M61DtkuKW5Ffnd2lQAWunE9P7~YYQHz1c6gaaEfgFYSIinDZ8uOeLQQmnsRwNe4NoJaCimGKZec7e2VlGZQXRHc96C7czLhbkILmq6NUnLL3PqPO0sONxIHscYfF83bp7PDlTxZaIjZxKjlMj60UsYt4ToTwKIhbG8HoAPe~lbV~mIP-EQeYxF8nP7MIugSsAuTXew5BU3fJ7lQrxX6DUJU8uTqraEN75gbL6ruWAfRETzCxi4gojiV~1XwGUf57ZFRsgXnCwIhvYnOKUi7JcUjVjYUb9yGNhChVy0xoQ__"
-                            type="video/mp4"/>
+                    <video className='presentationVideo' controls>
+                        <source src={heroVideo} type="video/mp4"/>
                     </video>
                     <div className="visualBrochure">
                         <svg viewBox="0 0 499 268" fill="none"
@@ -120,6 +121,8 @@ function Hero () {
                                     fill="#828282"/>
                             </g>
                         </svg>
+                        <Status />
+                        <Owner />
 
                     </div>
                 </div>

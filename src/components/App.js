@@ -11,6 +11,7 @@ function App() {
   return (
      <div className="grid-container">
        <Header />
+       <Hero />
      </div>
   )
 }
@@ -18,7 +19,7 @@ function App() {
 export default App
 
 
-/*<Hero />
+/*
        <Reassurance />
        <Consultants />
        <Solutions />*/

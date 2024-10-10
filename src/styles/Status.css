@@ -1,0 +1,69 @@
+.statusContainer {
+    position: absolute;
+    background-color: #FF9B6E;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 16.5921px rgba(130, 130, 130, 0.18);
+    filter: drop-shadow(0px 0.518503px 2.07402px rgba(0, 0, 0, 0.12));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+    width: 150px;
+    top: 110px;
+    left: 400px;
+    overflow: hidden;
+}
+
+.statusTitle {
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.statusTitleIcons{
+    display: flex;
+    align-items: center;
+}
+.bi-speedometer2{
+    padding-right: 5px;
+}
+.bsStatusIcons{
+    color: #3C4A41;
+}
+.statusDetails{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2px;
+}
+.statusDetails p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+.statusIcons{
+    display: flex;
+    padding: 2px;
+}
+
+.statusIcons p {
+    margin: 5px;
+}
+.statusBtn{
+    margin: 0 5px 0 0;
+}
+.statusNext{
+    display: flex;
+    align-items: center;
+    width: 10px;
+    height: 5px;
+}
+
+.statusDetails p:first-child {
+    font-weight: bold;
+}
+
