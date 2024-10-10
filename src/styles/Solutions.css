@@ -1,0 +1,27 @@
+.solutions{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(12, 1fr);
+    padding: 5px 100px 0 100px;
+}
+
+.solutionsTitle{
+    grid-column: 1 / span 5;
+    /*font-size: 40px;*/
+}
+.solutionsNav{
+    grid-column: 6 / span 8;
+    justify-self: right;
+    border-radius: 100px;
+    border: 1px solid #3C4A4133;
+}
+
+.solutionsNav ul li a{
+    font-size: 16px;
+}
+.solutionsNav ul li a:hover{
+    border: none;
+    border-radius: 100px;
+    background-color: #3C4A411A;
+}

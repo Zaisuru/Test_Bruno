@@ -1,0 +1,64 @@
+.header{
+    padding: 24px 124px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+    gap: 10px;
+    height: 88px;
+    align-items: center;
+}
+
+.greenscopeLogo{
+    height: 25.37px;
+    grid-column: 1 / span 3;
+    justify-self: left;
+}
+
+.navigation {
+    grid-column: 4 / span 4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+.subNav{
+    margin-left: 2px;
+    width: 10px;
+}
+.subNavLink{
+    display: none;
+}
+
+
+.DemoButton{
+    grid-column: 11 / span 2;
+    height: 40px;
+    justify-self: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #946BB6;
+    background-color: #fff;
+    color: #946BB6;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: "PP Neue Montreal", sans-serif;
+}
+.DemoButton:hover{
+    background-color: #946BB6;
+    color: white;
+}
+
+.demoBtnLogo{
+    padding: 5px;
+    width: 15px;
+}

@@ -1,0 +1,43 @@
+.consultants{
+    padding: 120px 100px 0 100px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
+    align-items: center;
+    background-color: #3C4A41;
+}
+
+.consultantsTitle{
+    font-family: "PP Neue Montreal", sans-serif;
+    grid-column: 1 / span 4;
+    color: white;
+    font-size: 40px;
+}
+
+.consultantsButtonNav{
+    grid-column: 11 / span 2;
+    justify-self: right;
+    align-items: center;
+}
+.navBtn{
+    border-radius: 80px;
+    width: 57.6px;
+    height: 40px;
+    border: 0.8px solid #946BB6;
+    background-color: #3C4A41;
+}
+
+.navBtn svg{
+    width: 19.2px;
+    height: 19.2px;
+}
+
+.carousel{
+    grid-column: 1 / span 12;
+    overflow: visible;
+}
+
+.carouselContainer{
+    grid-column: 1 / span 5;
+
+}

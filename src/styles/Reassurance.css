@@ -1,0 +1,30 @@
+.reassurance {
+    overflow: hidden;
+}
+
+.carouselLogoContainer {
+    display: flex;
+    justify-content: space-around;
+    animation: scroll 15s linear infinite;
+}
+
+.carouselLogoItems {
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
+.carouselLogoItems img {
+    height: 100px;
+    margin: 0 80px;
+    width: auto;
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
