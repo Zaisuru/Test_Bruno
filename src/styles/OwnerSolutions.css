@@ -1,0 +1,96 @@
+.ownerSolutionsContainer {
+    position: absolute;
+    border-radius: 12px;
+    box-shadow: inset 0px 0px 16.5921px rgba(130, 130, 130, 0.18);
+    filter: drop-shadow(0px 0.518503px 2.07402px rgba(0, 0, 0, 0.12));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70px;
+    width: 150px;
+    top: 145px;
+    left: 70px;
+    overflow: hidden;
+}
+
+.ownerSolutionsTitle {
+    width: 140px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.solutionsTitleIcons{
+    display: flex;
+    align-items: center;
+}
+.bi-person-circle{
+    padding-right: 5px;
+}
+.solutionsOwnerIcons{
+    color: #3C4A41;
+}
+.ownerSolutionsDetails{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 2px;
+}
+.ownerSolutionsDetails p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+.ownerSolutionsIcons{
+    display: flex;
+    padding: 2px;
+}
+
+.ownerSolutionsIcons p {
+    margin: 5px;
+}
+.ownerSolutionsBtn{
+    margin: 0 5px 0 0;
+}
+.ownerSolutionsNext{
+    display: flex;
+    align-items: center;
+    width: 10px;
+    height: 5px;
+}
+
+.ownerSolutionsDetails p:first-child {
+    font-weight: bold;
+}
+
+
+/* Owner solutions modal */
+/* Esg Data Solution*/
+.modal-1 .ownerSolutionsContainer{
+    background-color: #FFDDA5;
+}
+
+
+/* Carbon Assesment*/
+.modal-2 .ownerSolutionsContainer{
+    background-color: #FFCCCC;
+}
+
+
+/* CSRD */
+.modal-3 .ownerSolutionsContainer{
+    background-color: #3C4A41;
+    color: white;
+}
+.modal-3 .solutionsOwnerIcons{
+    color: #FFFFFF;
+}
+
+
+/* Impact Analysis & Compliance */
+.modal-4 .ownerSolutionsContainer{
+    background-color: #FF9B6E;
+}

@@ -1,0 +1,196 @@
+/* import App.css for Google Fonts */
+@import url('App.css');
+
+/* css global modal */
+.modal-overlay{
+    width: 1192px;
+    height: 573px;
+}
+.modal{
+    height: 100%;
+    width: 100%;
+    padding: 0 72px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+
+}
+.modalContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 364px;
+    height: 100%;
+}
+.modalTitle{
+    font-family: "ppneuemontreal", sans-serif;
+    font-size: 32px;
+    line-height: 38.4px;
+}
+.associateWord{
+    display: flex;
+}
+.associateWord p{
+    width: 121px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 133.33px;
+    margin: 0 5px 0 0;
+    font-family: "ppneuemontreal", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.modalText{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.modalGraph{
+    width: 492px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.modalGraphContainer{
+    width: 100%;
+    margin-top: 72px;
+    height: 380px;
+    background-color: #4538481A;
+    border-radius: 8px;
+    padding: 15px;
+    overflow: hidden;
+}
+.graphContainer{
+    display: flex;
+    left: 90px;
+    padding: 8px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #F9F9F9;
+}
+
+.graphMore{
+    font-family: "ppneuemontreal", sans-serif;
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: center;
+}
+.graphMore svg{
+    margin-left: 5px;
+}
+
+
+/* Css modal spec */
+
+/* css for ESG Data Solutions*/
+.modal-1{
+    background-color: #FFDDA5;
+}
+.modal-1 .modalTitle{
+    color: #453848;
+}
+.modal-1 .associateWord p{
+    background-color: #453848;
+    color: white;
+}
+.modal-1 .modalText{
+    color: #453848B2;
+}
+.modal-1 .modalGraphContainer{}
+.modal-1 .modalGraphLogo{
+    fill:#453848;
+}
+.modal-1 .graphMore{
+    color: #453848;
+}
+.modal-1 .graphMoreIcons{
+    fill: #453848;
+}
+
+
+
+/* css for Carbon Assessment */
+.modal-2{
+    background-color: #3C4A41;
+}
+.modal-2 .modalTitle{
+    color: #F4F8EF;
+}
+.modal-2 .associateWord p{
+     background-color: #FFCCCC;
+     color: #3C4A41;
+ }
+.modal-2 .modalText{
+    color:#D6E0D3B2;
+}
+.modal-2 .modalGraphContainer{
+    background-color: #D6E0D3B2;
+}
+.modal-2 .modalGraphLogo{
+    fill:#FFFFFF;
+}
+.modal-2 .graphMore{
+    color: #F4F8EF;
+}
+.modal-2 .graphMoreIcons{
+    fill: #F4F8EF;
+}
+
+/* Css for CSRD */
+.modal-3{
+    background-color: #FFCCCC;
+}
+.modal-3 .modalTitle{
+    color: #3C4A41;
+}
+.modal-3 .associateWord p{
+    background-color: #3C4A41;
+    color: #FFFFFF;
+}
+.modal-3 .modalText{
+    color:#3C4A41B2;
+}
+.modal-3 .modalGraphContainer{
+    background-color: #4538481A;
+}
+.modal-3 .modalGraphLogo{
+    fill: #453848;
+}
+.modal-3 .graphMore{
+    color: #3C4A41;
+}
+.modal-3 .graphMoreIcons{
+    fill: #3C4A41;
+}
+
+
+/* Css for Impact & Analysus & Compliance */
+.modal-4{
+    background-color: #453848;
+}
+.modal-4 .modalTitle{
+    color: #F4F8EF;
+}
+.modal-4 .associateWord p{
+    background-color: #FF9B6E;
+    color: #453848;
+}
+.modal-4 .modalText{
+    color:#D6E0D3B2;
+}
+.modal-4 .modalGraphContainer{
+    background-color: #FFFFFF33;
+}
+.modal-4 .modalGraphLogo{
+    fill: #FFFFFF;
+}
+.modal-4 .graphMore{
+    color: #FFFFFF;
+}
+.modal-4 .graphMoreIcons{
+    fill: #FFFFFF;
+}
