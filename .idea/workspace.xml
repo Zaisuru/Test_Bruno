@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6da00951-9036-4077-8503-37bae43981a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Solutions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Solutions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <workItem from="1728406595696" duration="21000" />
       <workItem from="1728406641774" duration="1722000" />
       <workItem from="1728459765579" duration="50157000" />
-      <workItem from="1728630082067" duration="22295000" />
+      <workItem from="1728630082067" duration="22952000" />
     </task>
     <servers />
   </component>
