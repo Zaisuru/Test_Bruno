@@ -4,8 +4,9 @@ import '../styles/App.css';
 import Header from "./Header";
 import Hero from "./Hero";
 import Reassurance from "./Reassurance";
-import Consultants from "./Consultants"
+import Carousel from "./Consultants"
 import Solutions from "./Solutions"
+import Consultants from "./Consultants";
 
 function App() {
   return (

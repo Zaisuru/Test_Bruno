@@ -2,82 +2,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .consultants{
-    padding: 120px 100px 0 100px;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    padding: 120px 100px 100px 100px;
     gap: 20px;
     align-items: center;
     background-color: #3C4A41;
     overflow: hidden;
 }
-
-.consultantsTitle{
-    font-family: "PP Neue Montreal", sans-serif;
+.carousel-header{
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(12, 1fr);
+}
+.carousel-header h2{
     grid-column: 1 / span 4;
     color: white;
     font-size: 40px;
 }
-
-.consultantsButtonNav{
+.carousel-controls{
     grid-column: 11 / span 2;
     justify-self: right;
-    align-items: center;
 }
-.navBtn{
-    border-radius: 80px;
-    width: 57.6px;
+.carousel-controls button{
+    width: 58px;
     height: 40px;
+    border-radius: 80px;
+    background-color: transparent;
     border: 0.8px solid #F4F8EF;
-    background: none;
 }
-
-.navBtn svg{
-    width: 19.2px;
-    height: 19.2px;
+.carousel-controls button:hover{
+    cursor: pointer;
 }
-
-.carousel{
-    grid-column: 1 / span 12;
-    overflow: visible;
+.carousel-controls button svg{
+    width: 20px;
+    height: 20px;
 }
-.carousel{
+.carousel-body{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.carousel-image{
+    grid-column: 1 / span 3;
+}
+.carousel-text{
+    grid-column: 5 / span 3;
     display: flex;
-    width: 792px;
-    height: 505px;
-}
-.carouselContainer{
-    grid-column: 1 / span 5;
-    display: flex;
-    height: 100%;
-    margin: 0 35px;
-}
-
-.carouselContent{
-    display: flex;
-    height: 100%;
     flex-direction: column;
     justify-content: space-between;
-    color: white;
-    margin: 0 35px;
 }
-.carouselContentTitle{
+.carousel-text h3{
+    font-family: "ppneuemontreal", sans-serif;
+    color: #F4F8EF;
+    font-size: 32px;
+    line-height: 38.4px;
     display: flex;
     align-items: center;
 }
-.carouselTitle{
-    font-size: 32px;
-    font-family: "ppneuemontreal", sans-serif;
-    margin-left: 25px;
-}
-.carouselContentText{
-    width: 352px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+.carousel-text h3 svg{
+    margin-right: 15px;
+ }
+.carousel-text p {
+    font-family: "Inter", sans-serif;
+    color: #D6E0D3B2;
     font-size: 16px;
-    line-height: 150%;
-    /* or 24px */
-    color: rgba(214, 224, 211, 0.7);
-
-
+    line-height: 24px;
+    width: 352px;
+    height: 96px;
 }
