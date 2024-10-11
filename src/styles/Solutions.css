@@ -5,9 +5,6 @@
     padding: 24px 124px;
 }
 
-.solutionsTitle{
-    grid-column: 1 / span 5;
-}
 .solutionsTitle h2{
     font-family:'ppneuemontreal', sans-serif;
     font-size: 40px;
