@@ -1,6 +1,10 @@
 import React from 'react';
 import '../styles/Status.css'; // Import du fichier CSS pour le style
 
+/* import images  */
+
+import Progress from '../assets/Progress.svg';
+import Next from '../assets/Next.svg';
 
 function Status() {
     return (
@@ -14,11 +18,11 @@ function Status() {
             </div>
             <div className="statusDetails">
                 <div className="statusIcons">
-                    <img src="/assets/Progress.svg" alt="Progress"/>
+                    <img src={Progress} alt="Progress"/>
                     <p>In progress</p>
                 </div>
                 <div className="statusBtn">
-                    <img src="/assets/Next.svg" alt="Next" className="statusNext"/>
+                    <img src={Next} alt="Next" className="statusNext"/>
                 </div>
             </div>
         </div>

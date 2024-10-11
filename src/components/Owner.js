@@ -1,6 +1,11 @@
 import React from 'react';
 import '../styles/Owner.css'; // Import du fichier CSS pour le style
 
+/*import image*/
+import Rachel from '../assets/Rachel.svg'
+import Next from '../assets/Next.svg'
+
+
 function Owner() {
     return (
         <div className="ownerContainer">
@@ -10,11 +15,11 @@ function Owner() {
             </div>
             <div className="ownerDetails">
                 <div className="ownerIcons">
-                    <img src="/assets/Rachel.svg" alt="Rachel"/>
+                    <img src={Rachel} alt="Rachel"/>
                     <p>Rachel</p>
                 </div>
                 <div className="ownerBtn">
-                    <img src="/assets/Next.svg" alt="Next" className="ownerNext"/>
+                    <img src={Next} alt="Next" className="ownerNext"/>
                 </div>
             </div>
         </div>

@@ -6,8 +6,27 @@
   <component name="ChangeListManager">
     <list default="true" id="6da00951-9036-4077-8503-37bae43981a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Carousel1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Carousel1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Carousel2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Carousel2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Doctolib.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Doctolib.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Informations.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Informations.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Natixis.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Natixis.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Next.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Next.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/PayFit.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/PayFit.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Progress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Progress.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Rachel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Rachel.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Slack.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Slack.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/SolutionsGraph.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/SolutionsGraph.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/SpenDesk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/SpenDesk.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/Status.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/Status.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Consultants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Consultants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Owner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Owner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/OwnerSolutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OwnerSolutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Reassurance.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reassurance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Status.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Status.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +101,7 @@
       <workItem from="1728406595696" duration="21000" />
       <workItem from="1728406641774" duration="1722000" />
       <workItem from="1728459765579" duration="50157000" />
-      <workItem from="1728630082067" duration="22952000" />
+      <workItem from="1728630082067" duration="25485000" />
     </task>
     <servers />
   </component>

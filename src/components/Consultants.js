@@ -4,6 +4,11 @@ import "../styles/Consultants.css"
 /* import comp react*/
 import React, {useState} from "react";
 
+/* import image */
+
+import firstCarousel from '../assets/Carousel1.svg';
+import secondCarousel from '../assets/Carousel2.svg';
+
 function Carousel (){
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -16,13 +21,13 @@ function Carousel (){
                 '                                potential: measure all your impacts,\n' +
                 '                                lead CSRD initiatives, assess your risks\n' +
                 '                                and shape your sustainable strategy',
-            picture : '/assets/Carousel1.svg'
+            picture : firstCarousel
         },
         {
             id : 2,
-            title : 'For Example',
+            title : 'For Companies',
             description : 'Maximize your investments and impact: evaluate ESG risk exposure and opportunities, measure impacts & dependancies, develop a sustainable strategy and enhance your holdings ESG journey',
-            picture : '/assets/Carousel2.svg'
+            picture : secondCarousel
         }
     ];
 
