@@ -1,8 +1,9 @@
 import '../styles/Header.css'
+import "../styles/App.css";
 
 function Header(){
     return(
-        <header className="header">
+        <header className="header grid">
             <svg className="greenscopeLogo" viewBox="0 0 215 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M36.3667 15.0521H29.2494V23.2573H26.4277V0.936279H36.6485C38.634 0.936279 40.3117 1.50781 41.6807 2.65004C43.0494 3.79227 43.7343 5.57926 43.7343 8.01018C43.7343 11.6149 42.2607 13.8472 39.3135 14.7066L44.2987 23.2573H41.0693L36.3667 15.0521ZM29.2494 12.348H36.053C37.7462 12.348 38.9528 11.9659 39.6746 11.2012C40.3957 10.436 40.756 9.3721 40.756 8.01018C40.756 6.64784 40.3957 5.58389 39.6746 4.81918C38.9528 4.05405 37.7462 3.6719 36.053 3.6719H29.2494V12.348Z" fill="#3C4A41"/>
                 <path d="M63.8934 3.64034H51.352V20.5536H63.8934V23.2573H48.5308V0.936279H63.8934V3.64034Z" fill="#3C4A41"/>
@@ -22,26 +23,26 @@ function Header(){
 
             <nav className="navigation">
                 <ul>
-                    <li><a href="#">Solutions <svg  className="subNav" viewBox="0 0 9 6" fill="none"
+                    <li><a href="#"  className="ppnm">Solutions <svg  className="subNav" viewBox="0 0 9 6" fill="none"
                                                    xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.98167 1.19447L4.37072 4.80542L0.759766 1.19447" stroke="#3C4A41"
                               stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                     </a>
                     </li>
-                    <li><a href="#">Platforms
+                    <li><a href="#" className="ppnm">Platforms
                         <svg className="subNav" viewBox="0 0 9 6" fill="none"
                              xmlns="http://www.w3.org/2000/svg">
                             <path d="M7.98167 1.19447L4.37072 4.80542L0.759766 1.19447" stroke="#3C4A41"
                                   stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </a></li>
-                    <li><a href="#">Ressources</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#" className="ppnm">Ressources</a></li>
+                    <li><a href="#" className="ppnm">About</a></li>
                 </ul>
             </nav>
 
-            <button className='DemoButton' onClick=''>Demander une démo <svg className="demoBtnLogo" viewBox="0 0 13 12"
+            <button className='DemoButton ppnm' onClick=''>Demander une démo <svg className="demoBtnLogo" viewBox="0 0 13 12"
                                                                              fill="none"
                                                                              xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"

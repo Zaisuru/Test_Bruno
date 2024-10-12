@@ -1,4 +1,5 @@
 /* import css file */
+import "../styles/App.css"
 import "../styles/Consultants.css"
 
 /* import comp react*/
@@ -46,8 +47,8 @@ function Carousel (){
     return(
         <div className="consultants">
             <div className="carousel-content">
-                <div className="carousel-header">
-                    <h2>A solution for everyone</h2>
+                <div className="carousel-header grid">
+                    <h2 className="ppnm">A solution for everyone</h2>
                     <div className="carousel-controls">
                         <button onClick={prevCarousel}><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_311_1702)">
@@ -92,7 +93,7 @@ function Carousel (){
                         <img src={carouselContainers[currentIndex].picture} alt={carouselContainers[currentIndex].title}/>
                     </div>
                     <div className="carousel-text">
-                        <h3><svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <h3 className="ppnm"><svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M18.1281 12.3307C19.161 12.9252 20.4772 12.5653 21.0725 11.5222C21.6703 10.4748 21.1104 8.66495 21.2979 6.74813C19.7547 7.86098 17.9191 8.28938 17.3237 9.33269C16.726 10.3799 17.0812 11.7193 18.1159 12.3236L18.1281 12.3307Z" fill="#F4F8EF"/>
                             <path d="M21.043 0.286572C20.0101 -0.307956 18.6938 0.0518971 18.0985 1.09498C17.5008 2.14239 18.0606 3.95228 17.8731 5.8691C19.4164 4.75625 21.2519 4.32785 21.8474 3.28453C22.445 2.23736 22.0898 0.897921 21.0551 0.293599L21.043 0.286572Z" fill="#F4F8EF"/>
                             <path d="M5.04306 28.3215C4.01765 27.7138 3.66759 26.3808 4.2629 25.3377C4.86067 24.2903 6.68999 23.8758 8.23718 22.7532C8.05612 24.6616 8.60715 26.4839 8.01172 27.5272C7.41408 28.5744 6.08985 28.933 5.05516 28.3287L5.04306 28.3215Z" fill="#F4F8EF"/>
@@ -131,7 +132,7 @@ function Carousel (){
                             <path d="M18.1039 19.7457C17.0784 20.3534 16.7284 21.6864 17.3237 22.7295C17.9215 23.7769 19.7508 24.1914 21.298 25.314C21.1169 23.4056 21.6679 21.5833 21.0725 20.54C20.4749 19.4928 19.1506 19.1342 18.1159 19.7385L18.1039 19.7457Z" fill="#F4F8EF"/>
                         </svg>
                             {carouselContainers[currentIndex].title}</h3>
-                        <p>{carouselContainers[currentIndex].description}</p>
+                        <p className="inter">{carouselContainers[currentIndex].description}</p>
                     </div>
                 </div>
             </div>

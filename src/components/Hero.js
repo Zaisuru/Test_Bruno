@@ -1,4 +1,5 @@
 import React from 'react';
+import "../styles/App.css";
 import '../styles/Hero.css';
 import heroVideo from '../assets/heroVideo.mp4';
 
@@ -6,10 +7,15 @@ import heroVideo from '../assets/heroVideo.mp4';
 import Status from "./Status";
 import Owner from "./Owner";
 
+
+/* import svg files */
+import HeroGraph from '../assets/heroGraph.svg'
+
+
 function Hero () {
     return (
         <div className="demoContainer">
-            <div className="contentContainer">
+            <div className="contentContainer grid">
                 <div className="presentationVideo">
                     <video width="100%" height="100%" controls>
                         <source src={heroVideo} type="video/mp4" />
@@ -131,8 +137,8 @@ function Hero () {
 
                 </div>
             </div>
-            <div className="textSection">
-                <h1>Where ESG can be leveraged</h1>
+            <div className="textSection grid">
+                <h1 className="ppnm">Where ESG can be leveraged</h1>
                 <svg width="64" height="65" viewBox="0 0 64 65" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M36.2561 24.6613C38.3219 25.8504 40.9544 25.1307 42.145 23.0445C43.3405 20.9497 42.2208 17.3299 42.5958 13.4963C39.5093 15.722 35.8382 16.5788 34.6474 18.6654C33.4521 20.7597 34.1624 23.4386 36.2318 24.6473L36.2561 24.6613Z"
@@ -245,8 +251,8 @@ function Hero () {
                 </svg>
 
                 <div className="textSectionDesc">
-                    <p>+500 companies use Greenscope</p>
-                    <button className="getDemoBtn">Get a demo <svg width="16" height="16" viewBox="0 0 16 16"
+                    <p className="inter">+500 companies use Greenscope</p>
+                    <button className="getDemoBtn ppnm">Get a demo <svg width="16" height="16" viewBox="0 0 16 16"
                                                                    fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
                               d="M8 16C12.4183 16 16 12.4183 16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 12.4183 3.58172 16 8 16ZM5 7.52026C4.72386 7.52026 4.5 7.74412 4.5 8.02026C4.5 8.29641 4.72386 8.52026 5 8.52026H9.79289L7.64645 10.6667C7.45118 10.862 7.45118 11.1786 7.64645 11.3738C7.84171 11.5691 8.15829 11.5691 8.35355 11.3738L11.3536 8.37382C11.5488 8.17855 11.5488 7.86197 11.3536 7.66671L8.35355 4.66671C8.15829 4.47145 7.84171 4.47145 7.64645 4.66671C7.45118 4.86197 7.45118 5.17856 7.64645 5.37382L9.79289 7.52026L5 7.52026Z"

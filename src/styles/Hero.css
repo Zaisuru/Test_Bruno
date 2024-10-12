@@ -6,9 +6,6 @@
 }
 
 .contentContainer {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
     width: 100%;
 }
 
@@ -36,9 +33,6 @@
 
 
 .textSection {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
     margin-top: 20px;
     width: 100%;
     align-items: center;
@@ -60,6 +54,7 @@
 }
 .textSectionDesc p {
     margin-left: 25px;
+    color: #3c4a41;
 }
 
 .getDemoBtn {
@@ -68,6 +63,7 @@
     border-radius: 8px;
     padding: 10px 20px;
     font-size: 16px;
+    line-height: 19.2px;
     color: #946BB6;
     cursor: pointer;
     transition: background-color 0.3s ease;

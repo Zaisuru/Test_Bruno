@@ -1,4 +1,7 @@
 import "../styles/Solutions.css";
+import "../styles/App.css";
+
+
 import Modal from "./Modal";
 import React, { useState } from "react";
 import modal from "./Modal";
@@ -44,13 +47,13 @@ function Solutions() {
 
     return (
         <div className="solutions">
-            <div className="solutionsHeader">
-                <h2>All your ESG journey needs in one platform</h2>
+            <div className="solutionsHeader grid">
+                <h2 className="ppnm">All your ESG journey needs in one platform</h2>
 
                     <ul className="solutionsNav">
                         {modals.map(modal => (
                             <li key={modal.id}>
-                                <a href="#" className={`solutions-${modal.id} solutionsLink`} onClick={(e) => {
+                                <a href="#" className={`solutions-${modal.id} solutionsLink inter`} onClick={(e) => {
                                     e.preventDefault();
                                     openModal(modal.id);
                                 }}>

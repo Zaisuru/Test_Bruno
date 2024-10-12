@@ -2,14 +2,11 @@
     padding: 24px 124px;
 }
 .solutionsHeader{
-    display: grid;
     align-items: center;
-    gap: 20px;
-    grid-template-columns: repeat(12 , 1fr);
 }
 .solutionsHeader h2{
-    font-family:'ppneuemontreal', sans-serif;
     font-size: 40px;
+    line-height: 48px;
     color: #3C4A41;
     grid-column: 1 / span 5;
 }
@@ -26,14 +23,12 @@
 }
 
 .solutionsNav li a{
-    font-size: 16px;
     padding: 8px;
+    color:#3c4a41;
+    line-height: 20.8px;
 }
 
-
-/* css spec */
 .solutionsLink:hover{
-    padding: 8px;
     border: none;
     border-radius: 100px;
     background-color: #F4F8EF;

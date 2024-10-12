@@ -1,12 +1,6 @@
-/* import App.css for Google Fonts */
-@import url('App.css');
-
 /* css global modal */
 
 .modal{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
     border-radius: 8px;
 
 }
@@ -22,7 +16,6 @@
     padding-left: 72px;
 }
 .modalTitle{
-    font-family: "ppneuemontreal", sans-serif;
     font-size: 32px;
     line-height: 38.4px;
 }
@@ -36,16 +29,9 @@
     border-radius: 133.33px;
     margin: 0 5px 0 0;
     padding: 8px;
-    font-family: "ppneuemontreal", sans-serif;
     font-size: 12px;
     text-transform: uppercase;
 }
-
-.modalText{
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
-}
-
 .modalGraph{
     display: flex;
     flex-direction: column;
@@ -71,7 +57,6 @@
 }
 
 .graphMore{
-    font-family: "ppneuemontreal", sans-serif;
     font-size: 16px;
     line-height: 19.2px;
     text-align: center;
