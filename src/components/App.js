@@ -6,7 +6,6 @@ import Hero from "./Hero";
 import Reassurance from "./Reassurance";
 import Solutions from "./Solutions"
 import Consultants from "./Consultants";
-import Designed from "./Designed";
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
          <Reassurance />
          <Consultants />
          <Solutions />
-         <Designed />
      </div>
   )
 }

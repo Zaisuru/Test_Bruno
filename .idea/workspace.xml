@@ -6,17 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6da00951-9036-4077-8503-37bae43981a8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Consultants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Consultants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Solutions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Consultants.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Consultants.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Modal.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/Solutions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Solutions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Designed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Designed.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +85,7 @@
       <workItem from="1728459765579" duration="50157000" />
       <workItem from="1728630082067" duration="26625000" />
       <workItem from="1728679801435" duration="1806000" />
-      <workItem from="1728764071164" duration="6995000" />
+      <workItem from="1728764071164" duration="7350000" />
     </task>
     <servers />
   </component>
