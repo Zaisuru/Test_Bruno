@@ -44,23 +44,21 @@ function Solutions() {
 
     return (
         <div className="solutions">
-            <div className="solutionsTitle">
+            <div className="solutionsHeader">
                 <h2>All your ESG journey needs in one platform</h2>
-            </div>
 
-            <div className="solutionsNav">
-                <ul>
-                    {modals.map(modal => (
-                        <li key={modal.id}>
-                            <a href="#"  onClick={(e) => {
-                                e.preventDefault();
-                                openModal(modal.id);
-                            }}>
-                                {modal.title}
-                            </a>
-                        </li>
-                    ))}
-                </ul>
+                    <ul className="solutionsNav">
+                        {modals.map(modal => (
+                            <li key={modal.id}>
+                                <a href="#" className={`solutions-${modal.id} solutionsLink`} onClick={(e) => {
+                                    e.preventDefault();
+                                    openModal(modal.id);
+                                }}>
+                                    {modal.title}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
             </div>
 
             {activeModal && (

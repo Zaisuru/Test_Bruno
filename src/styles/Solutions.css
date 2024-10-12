@@ -1,28 +1,41 @@
 .solutions{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(12, 1fr);
     padding: 24px 124px;
 }
-
-.solutionsTitle h2{
+.solutionsHeader{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(12 , 1fr);
+}
+.solutionsHeader h2{
     font-family:'ppneuemontreal', sans-serif;
     font-size: 40px;
     color: #3C4A41;
+    grid-column: 1 / span 5;
 }
 .solutionsNav{
     grid-column: 6 / span 7;
+    align-items: center;
     justify-self: right;
-    border-radius: 100px;
     border: 1px solid #3C4A4133;
+    border-radius: 100px;
+    padding: 12px 12px;
+}
+.solutionsNav li{
+    border-radius: 100px;
 }
 
-.solutionsNav ul li a{
+.solutionsNav li a{
     font-size: 16px;
+    padding: 8px;
 }
-.solutionsNav ul li a:hover{
+
+
+/* css spec */
+.solutionsLink:hover{
+    padding: 8px;
     border: none;
     border-radius: 100px;
-    background-color: #3C4A411A;
+    background-color: #F4F8EF;
 }
 

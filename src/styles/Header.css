@@ -20,16 +20,6 @@
     align-items: center;
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
-
-a {
-    text-decoration: none;
-    color: #333;
-}
 .subNav{
     margin-left: 2px;
     width: 10px;
