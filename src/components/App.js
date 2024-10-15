@@ -12,9 +12,9 @@ function App() {
      <div className="grid-container">
        <Header />
        <Hero />
-         <Reassurance />
-         <Consultants />
-         <Solutions />
+       <Reassurance />
+       <Consultants />
+       <Solutions />
      </div>
   )
 }
