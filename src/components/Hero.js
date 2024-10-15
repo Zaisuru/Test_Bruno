@@ -14,7 +14,7 @@ import HeroGraph from '../assets/heroGraph.svg'
 
 function Hero () {
     return (
-        <div className="demoContainer">
+        <div className="demoContainer section">
             <div className="contentContainer grid">
                 <div className="presentationVideo">
                     <video width="100%" height="100%" controls>

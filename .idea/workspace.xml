@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6da00951-9036-4077-8503-37bae43981a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Designed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/Designed.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Consultants.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Consultants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Solutions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Solutions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Consultants.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Consultants.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/Solutions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Solutions.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -84,7 +95,8 @@
       <workItem from="1728630082067" duration="26625000" />
       <workItem from="1728679801435" duration="1806000" />
       <workItem from="1728764071164" duration="7457000" />
-      <workItem from="1728981230152" duration="97000" />
+      <workItem from="1728981230152" duration="3495000" />
+      <workItem from="1729022029794" duration="1630000" />
     </task>
     <servers />
   </component>
@@ -97,7 +109,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Consultants.js</url>
           <line>70</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

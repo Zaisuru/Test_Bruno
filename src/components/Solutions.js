@@ -46,8 +46,8 @@ function Solutions() {
     }
 
     return (
-        <div className="solutions">
-            <div className="solutionsHeader grid">
+        <div className="solutions section">
+            <div className="solutionsHeader grid ">
                 <h2 className="ppnm">All your ESG journey needs in one platform</h2>
 
                     <ul className="solutionsNav">

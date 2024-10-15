@@ -45,7 +45,7 @@ function Carousel (){
     };
 
     return(
-        <div className="consultants">
+        <div className="consultants section">
             <div className="carousel-content">
                 <div className="carousel-header grid">
                     <h2 className="ppnm">A solution for everyone</h2>

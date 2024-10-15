@@ -1,0 +1,28 @@
+
+
+.designed-header__title{
+    font-size: 48px;
+    grid-column: 1 / span 5;
+}
+.designedcontent__container{
+
+}
+.designed-dataIntegration{
+    grid-column: 1 / span 6;
+    background-color: #F4F8EF;
+    border-radius: 8px;
+}
+.designed-security{
+    grid-column: 7 / span 6;
+    background-color: #3C4A41;
+    border-radius: 8px;
+    color: white;
+}
+.designed-content__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    line-height: 38.4px;
+    padding: 30px;
+}
